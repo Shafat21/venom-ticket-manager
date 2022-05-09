@@ -23,10 +23,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Shafat21/"
+    "url": "git+https://github.com/Shafat21/venom-ticket-manager.git"
   },
   "bugs": {
-    "url": "https://github.com/DJj123dj/open-ticket/issues"
+    "url": "https://github.com/Shafat21/venom-ticket-manager/issues"
   },
-  "homepage": "https://github.com/DJj123dj/open-ticket#readme"
+  "homepage": "https://github.com/Shafat21/venom-ticket-manager#readme"
 }
