@@ -64,7 +64,7 @@ if (process.argv[2] != "slash"){
 //=====================================================================
 //=====================================================================
 //ERROR DEBUG MODE: turn not on exept when you know what you are doing!
-var errorDebugMode = true
+var errorDebugMode = false
 //ERROR DEBUG MODE: turn not on exept when you know what you are doing!
 //=====================================================================
 //=====================================================================

@@ -39,11 +39,11 @@ exports.createEmbed = (id) => {
 
     var description = data.description
     if (data.enableTicketExplaination){
-        description = description+"\n\n__choose a category:__\n"
+        description = description+"\n\n"
 
         var ticketExplainations = []
         buttonData.forEach((button) => {
-            var explaination = button.icon+" **"+button.name+":**\n"+button.description
+            var explaination = " **"+button.name+":**\n"+button.description
             ticketExplainations.push(explaination)
         })
 
