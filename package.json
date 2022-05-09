@@ -1,0 +1,32 @@
+{
+  "name": "venom-manager",
+  "version": "2.0.0",
+  "description": "This is an open-source discord ticket bot, you can configure it and it comes with cool features like a transcript.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "slashEnable": "node index.js slash enable",
+    "slashDisable": "node index.js slash disable",
+    "cleardata": "node ./core/dynamicdatabase/cleardata.js"
+  },
+  "author": "DJdj Development",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "discord.js": "^13.6.0",
+    "express": "^4.17.1",
+    "node": "^16.10.0",
+    "node-localstorage": "^2.2.1",
+    "nodemon": "^2.0.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shafat21/"
+  },
+  "bugs": {
+    "url": "https://github.com/DJj123dj/open-ticket/issues"
+  },
+  "homepage": "https://github.com/DJj123dj/open-ticket#readme"
+}

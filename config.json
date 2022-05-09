@@ -1,0 +1,101 @@
+{
+    "bot_name":"VENOM TICKET BOT",
+    "main_color":"#2f3136",
+    "server_id":"833731920944824341",
+    "auth_token":"OTA3OTE2ODE3NzIzNDUzNDUw.YYuJbQ.mcfE01ETzSDZGXxPlKe7-_UwRJk",
+    "main_adminroles":["833731920960946278"],
+    "prefix":"!",
+    "logs":true,
+    "languagefile":"english.json (currently not working)",
+
+    "credits":true,
+    "status":{
+        "enabled":true,
+        "type":"PLAYING",
+        "text":"VENOM"
+    },
+
+    "system":{
+        "ticket_channel":"972897490040930388",
+        "max_allowed_tickets":3,
+        "enable_DM_Messages":true,
+
+        "has@everyoneaccess":false,
+        "member_role":"833731920960946277",
+
+        "enable_transcript":true,
+        "enable_DM_transcript":false,
+        "transcript_channel":"972897490040930388"
+    },
+
+    "options":[
+        {
+            "id":"general",
+            "name":"Buy This",
+            "description":"Click Here for Buying the product",
+            "icon":"🎫",
+            "label":"Buy This",
+            "type":"ticket",
+
+            "color":"red",
+            "adminroles":["833731920960946278"],
+            "channelprefix":"i-want-to-buy-",
+            "category":"894482660943081502",
+            "message":"You created a ticket!",
+            "enableDMMessage":true
+            
+        },
+        {
+            "id":"payment",
+            "name":"Payment Method",
+            "description":"Check on website!",
+            "icon":"✅",
+            "label":"Click Here",
+            "type":"website",
+
+            "url":"https://www.ganglyferp.com"
+            
+        },
+        {
+            "id":"payment2",
+            "name":"Payment Method",
+            "description":"Check on website!",
+            "icon":"✅",
+            "label":"Click Here",
+            "type":"website",
+
+            "url":"https://www.ganglyferp.com"
+            
+        }
+
+    ],
+
+    "messages":[
+        {
+            "id":"1",
+            "name":"Choose Your Ticket",
+            "description":"Choose your option below",
+            "enableFooter":true,
+            "footer":"Venom Manager",
+            "enableThumbnail":false,
+            "thumbnail":"https://cdn.discordapp.com/attachments/861295740721692722/968472265442328586/Banner-01.png",
+            "color":"#2f3136",
+            "options":["general","apply"],
+            "enableTicketExplaination":true,
+            "enableMaxTicketsWarning":true
+        },
+        {
+            "id":"2",
+            "name":"Available Payment Method",
+            "description":"Choose your option below",
+            "enableFooter":false,
+            "footer":"Venom Manager",
+            "enableThumbnail":true,
+            "thumbnail":"https://cdn.discordapp.com/attachments/861295740721692722/968472265442328586/Banner-01.png",
+            "color":"#2f3136",
+            "options":["payment", "payment2"],
+            "enableTicketExplaination":false,
+            "enableMaxTicketsWarning":false
+        }
+    ]
+}
