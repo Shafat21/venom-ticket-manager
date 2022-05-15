@@ -21,8 +21,8 @@ module.exports = () => {
                 new discord.MessageButton()
                     .setCustomId("closeTicketTrue1")
                     .setDisabled(false)
-                    .setStyle("SECONDARY")
-                    .setEmoji("🔒")
+                    .setStyle("DANGER")
+                    .setLabel("Close")
             ])
 
             msg.channel.send({content:"**Click on the button below to close this ticket!**",components:[closebutton]})
@@ -51,8 +51,8 @@ module.exports = () => {
                 new discord.MessageButton()
                     .setCustomId("closeTicketTrue1")
                     .setDisabled(false)
-                    .setStyle("SECONDARY")
-                    .setEmoji("🔒")
+                    .setStyle("DANGER")
+                    .setLabel("Close")
             ])
 
             interaction.reply({content:"**Click on the button below to close this ticket!**",components:[closebutton]})

@@ -19,12 +19,13 @@ module.exports = () => {
         if (!msg.content.startsWith(config.prefix)) return
         var args = msg.content.split(config.prefix)
 
-        if (!args[1].startsWith("close") && !args[1].startsWith("delete") && !args[1].startsWith("remove") && !args[1].startsWith("add") && !args[1].startsWith("msg") && !args[1].startsWith("remove")  && !args[1].startsWith("rename")){
+        if (!args[1].startsWith("close") && !args[1].startsWith("delete") && !args[1].startsWith("remove") && !args[1].startsWith("add") && !args[1].startsWith("msg") && !args[1].startsWith("remove")  && !args[1].startsWith("rename") && !args[1].startsWith("say")){
 
             msg.channel.send({embeds:[helpEmbed]})
             if (config.logs){console.log("[command] "+config.prefix+"help (user:"+msg.author.username+")")}
         }
     })
+    
 
     client.on("interactionCreate",(interaction) => {
         if (!interaction.isCommand()) return

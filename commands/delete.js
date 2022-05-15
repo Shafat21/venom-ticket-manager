@@ -21,8 +21,8 @@ module.exports = () => {
                 new discord.MessageButton()
                     .setCustomId("deleteTicketTrue")
                     .setDisabled(false)
-                    .setStyle("SECONDARY")
-                    .setEmoji("❌")
+                    .setStyle("DANGER")
+                    .setLabel("Delete")
             ])
 
             msg.channel.send({content:"**Click on the button below to delete this ticket!**",components:[closebutton]})
@@ -51,8 +51,8 @@ module.exports = () => {
                 new discord.MessageButton()
                     .setCustomId("deleteTicketTrue")
                     .setDisabled(false)
-                    .setStyle("SECONDARY")
-                    .setEmoji("❌")
+                    .setStyle("DANGER")
+                    .setLabel("Delete")
             ])
 
             interaction.reply({content:"**Click on the button below to delete this ticket!**",components:[closebutton]})

@@ -7,11 +7,11 @@ exports.checker = async () => {
     var isWarn = false
     const createError = (message) => {
         isError = true
-        errorList.push("open-ticket CONFIG ERROR: "+message)
+        errorList.push("venom-manager CONFIG ERROR: "+message)
     }
     const createWarn = (message) => {
         isWarn = true
-        warnList.push("open-ticket CONFIG WARNING: "+message)
+        warnList.push("venom-manager CONFIG WARNING: "+message)
     }
 
     //validators
@@ -134,18 +134,6 @@ exports.checker = async () => {
 
         //description
         checkType(option.description,"string",path+"/description")
-
-        //icon
-        const emojiRegex = /(\u00a9|\u00ae|[\u2000-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/gi;
-        if (option.icon.length > 0){
-
-            const isEmoji = emojiRegex.test(option.icon)
-
-            if (isEmoji == false){
-                createError("'"+path+"/icon' | invalid emoji or custom discord emoji")
-            }
-        }
-        checkType(option.icon,"string",path+"/icon")
 
         //label
         checkType(option.label,"string",path+"/label")

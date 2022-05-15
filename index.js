@@ -64,7 +64,7 @@ if (process.argv[2] != "slash"){
 //=====================================================================
 //=====================================================================
 //ERROR DEBUG MODE: turn not on exept when you know what you are doing!
-var errorDebugMode = false
+var errorDebugMode = true
 //ERROR DEBUG MODE: turn not on exept when you know what you are doing!
 //=====================================================================
 //=====================================================================
@@ -74,17 +74,17 @@ var errorDebugMode = false
 if (!errorDebugMode){
     process.on("uncaughtException",async (error,origin) => {
         const chalk = await (await import("chalk")).default
-        console.log(chalk.red("\nOPEN TICKET ERROR: ")+error+"\n"+chalk.green("\nCreate a ticket in our support server for more information!\nIf you do this, you might help us to avoid a future bug!\n"))
+        console.log(chalk.red("\nVENOM MANAGER ERROR: ")+error+"\n"+chalk.green("\nCreate a ticket in our support server for more information!\nIf you do this, you might help us to avoid a future bug!\n"))
     })
 }
 if (errorDebugMode) {
     const debugLog = (debugString) => {
-        const content = fs.existsSync("./openticketdebug.txt") ? fs.readFileSync("./openticketdebug.txt").toString() : "==========================\n<OPEN TICKET DEBUG FILE:>\n=========================="
-        fs.writeFileSync("./openticketdebug.txt",content+"\nDEBUG: "+debugString)
+        const content = fs.existsSync("./venom-managerdebug.txt") ? fs.readFileSync("./venom-managerdebug.txt").toString() : "==========================\n<OPEN TICKET DEBUG FILE:>\n=========================="
+        fs.writeFileSync("./venom-managerdebug.txt",content+"\nDEBUG: "+debugString)
     }
     const errorLog = (errorString,stack) => {
-        const content = fs.existsSync("./openticketdebug.txt") ? fs.readFileSync("./openticketdebug.txt").toString() : "==========================\n<OPEN TICKET DEBUG FILE:>\n=========================="
-        fs.writeFileSync("./openticketdebug.txt",content+"\nERROR: "+errorString+" STACK: "+stack)
+        const content = fs.existsSync("./venom-managerdebug.txt") ? fs.readFileSync("./venom-managerdebug.txt").toString() : "==========================\n<OPEN TICKET DEBUG FILE:>\n=========================="
+        fs.writeFileSync("./venom-managerdebug.txt",content+"\nERROR: "+errorString+" STACK: "+stack)
     }
 
     client.on("debug", async (message) => {

@@ -1,0 +1,111 @@
+==========================
+<OPEN TICKET DEBUG FILE:>
+==========================
+DEBUG: Provided token: ***********bot token is invisible**************...
+DEBUG: Preparing to connect to the gateway...
+DEBUG: [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+DEBUG: [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 908
+DEBUG: [WS => Manager] Spawning shards: 0
+DEBUG: [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+DEBUG: [WS => Shard 0] Setting a HELLO timeout for 20s.
+DEBUG: [WS => Shard 0] [CONNECTED] Took 414ms
+DEBUG: [WS => Shard 0] Clearing the HELLO timeout.
+DEBUG: [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+DEBUG: [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 515
+DEBUG: [WS => Shard 0] [READY] Session f8d399f015d9cce94a015ea510913267.
+DEBUG: [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+DEBUG: [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+DEBUG: [WS => Shard 0] Heartbeat acknowledged, latency of 501ms.
+DEBUG: [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+DEBUG: [WS => Shard 0] Heartbeat acknowledged, latency of 270ms.
+DEBUG: Provided token: ***********bot token is invisible**************...
+DEBUG: Preparing to connect to the gateway...
+DEBUG: [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+DEBUG: [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 907
+DEBUG: [WS => Manager] Spawning shards: 0
+DEBUG: [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+DEBUG: [WS => Shard 0] Setting a HELLO timeout for 20s.
+DEBUG: [WS => Shard 0] [CONNECTED] Took 406ms
+DEBUG: [WS => Shard 0] Clearing the HELLO timeout.
+DEBUG: [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+DEBUG: [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 515
+DEBUG: [WS => Shard 0] [READY] Session 16d29319a4c2f6ffdaa90ec74d57a318.
+DEBUG: [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+DEBUG: [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+DEBUG: [WS => Shard 0] Heartbeat acknowledged, latency of 709ms.
+DEBUG: [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+DEBUG: [WS => Shard 0] Heartbeat acknowledged, latency of 280ms.
+DEBUG: Provided token: ***********bot token is invisible**************...
+DEBUG: Preparing to connect to the gateway...
+DEBUG: [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+DEBUG: [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 906
+DEBUG: [WS => Manager] Spawning shards: 0
+DEBUG: [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+DEBUG: [WS => Shard 0] Setting a HELLO timeout for 20s.
+DEBUG: [WS => Shard 0] [CONNECTED] Took 406ms
+DEBUG: [WS => Shard 0] Clearing the HELLO timeout.
+DEBUG: [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+DEBUG: [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 515
+DEBUG: [WS => Shard 0] [READY] Session a7e43697cdef93413a7c33d130b3a516.
+DEBUG: [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+DEBUG: [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+DEBUG: [WS => Shard 0] Heartbeat acknowledged, latency of 282ms.
+DEBUG: [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+DEBUG: [WS => Shard 0] Heartbeat acknowledged, latency of 282ms.
+DEBUG: [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+DEBUG: [WS => Shard 0] Heartbeat acknowledged, latency of 271ms.
+DEBUG: [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+DEBUG: [WS => Shard 0] Heartbeat acknowledged, latency of 280ms.
+DEBUG: [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+DEBUG: [WS => Shard 0] Heartbeat acknowledged, latency of 274ms.
+DEBUG: [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+DEBUG: [WS => Shard 0] Heartbeat acknowledged, latency of 271ms.
+DEBUG: Provided token: ***********bot token is invisible**************...
+DEBUG: Preparing to connect to the gateway...
+DEBUG: [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+DEBUG: [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 905
+DEBUG: [WS => Manager] Spawning shards: 0
+DEBUG: [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+DEBUG: [WS => Shard 0] Setting a HELLO timeout for 20s.
+DEBUG: [WS => Shard 0] [CONNECTED] Took 406ms
+DEBUG: [WS => Shard 0] Clearing the HELLO timeout.
+DEBUG: [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+DEBUG: [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 515
+DEBUG: [WS => Shard 0] [READY] Session 7104e7f265942da3d61269b90702e1c1.
+DEBUG: [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+DEBUG: [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+DEBUG: [WS => Shard 0] Heartbeat acknowledged, latency of 271ms.
+DEBUG: [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+DEBUG: [WS => Shard 0] Heartbeat acknowledged, latency of 277ms.
